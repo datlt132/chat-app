@@ -1,5 +1,5 @@
 #include "util.h"
-#include "./database/database.h"
+#include "database.h"
 
 static int callback(void *data, int argc, char **argv, char **azColName)
 {
